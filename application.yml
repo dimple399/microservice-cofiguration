@@ -1,4 +1,5 @@
-
+server:
+  port: 6065
 eureka:
   instance:
     prefer-ip-address: true
