@@ -1,10 +1,12 @@
 spring:
   application:
-      name: Cofigu-Dev
+      name: Config-Default
+
 eureka:
   instance:
     prefer-ip-address: true
- client:
+
+  client:
     register-with-eureka: true
     fetch-registry: true
     service-url:
