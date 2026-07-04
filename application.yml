@@ -1,5 +1,6 @@
 server:
   port: 6065
+
 eureka:
   instance:
     prefer-ip-address: true
@@ -8,4 +9,4 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:5050/eureka
+      defaultZone: http://localhost:5050/eureka/
